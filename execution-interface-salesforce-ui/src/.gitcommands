@@ -1,0 +1,11 @@
+$ git checkout -b opportunity develop  // to create a new sub-branch from opportunity from develop
+
+$ git checkout -b newbranch // to create a new branch locally and fetch the remote branch into it
+
+$ git branch -r // list branches on remote
+
+$ git diff --name-status origin/develop..origin/master // differences between two remote branches
+
+$ git checkout branchname // to switch between local branches
+
+$ git branch -m newname // to rename current branch pointed at HEAD

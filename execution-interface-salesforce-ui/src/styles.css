@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css');
+
+.background {
+  margin-top:2%;
+  border-radius: 15px;
+  background-color: #F0F0F0;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 5%;
+  /* margin-left: 0px;
+  margin-right: 0px; */
+  box-shadow: 5px 5px 30px lightgray;
+}
+
+/* ANIMATIONS */
+   
+  #welcome-header { 
+    animation-delay:0.2s; 
+    -moz-animation-delay:0.2s; 
+    -webkit-animation-delay:0.2s; 
+  }
+  #welcome-side-content { 
+    animation-delay:0.6s; 
+    -moz-animation-delay:0.6s; 
+    -webkit-animation-delay:0.6s; 
+  }
+    

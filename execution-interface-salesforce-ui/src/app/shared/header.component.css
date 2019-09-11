@@ -1,0 +1,11 @@
+.breadcrumb {
+background-color: transparent !important;
+text-shadow: 5px;
+}
+
+hr {
+  margin-top: -10px;
+  background-color:darkgray !important;
+  height: 1px;
+  width: 96%;
+}

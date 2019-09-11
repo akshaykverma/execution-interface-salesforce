@@ -1,0 +1,22 @@
+<div class="row button-layout-box">
+    <div class="col-md-12 col-xs-12">
+      <div class="row" *ngFor='let menuRow of menuRowItems; let i = index'>
+        <div [ngClass]="menuRowItems.length === (i + 1) ? menuRowClass[0] : menuRowClass[1]">
+          <div class="row">
+          <div class="col-md-1"></div>
+          <ng-template ngFor let-menuItem="$implicit" [ngForOf]="menuRow">
+            <div [ngClass]="menuRowItems.length === (i + 1) ? rowItemClass[0] : rowItemClass[1]">
+                <a [routerLink]="['/opportunityList']" [ngClass]="menuRowItems.length === (i + 1) ? btnItemClass[0] : btnItemClass[1]">
+                  <i class=' {{menuItem.iconCSSClass}}'></i><br /><br />
+                  <span>{{ menuItem.menuName }}</span>
+                </a>
+            </div>
+            <div class="col-xs-2"></div>
+          </ng-template> 
+        </div>
+        </div>
+      </div>
+      <br *ngIf='menuRowItems.length !== (i + 1)' />
+      <br *ngIf='menuRowItems.length !== (i + 1)' />
+    </div>
+  </div>

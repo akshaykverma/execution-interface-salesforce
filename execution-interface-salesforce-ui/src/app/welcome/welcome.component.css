@@ -1,0 +1,20 @@
+.action-btn-txt {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.launchimg {
+  max-height: 350px;
+  padding-bottom: 50px;
+}
+
+.vl {
+  background-color: teal;
+  height: 500px;
+  width: 100%;
+}
+
+.space {
+  padding-left: 5%;
+  padding-right: 5%;
+}
